@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.corduro.com/resources/about-us.html
+standards:
+  - id: pci-dss
+    conforms: true
+    evidence: >-
+      Corduro publicly advertises PCI compliance as a core platform capability
+      ("alleviates the complexity of PCI Compliance") and is described as a
+      PCI Certified Level 1 Service Provider in its public company profiles.
+  - id: oauth2
+    conforms: false
+    evidence: No public OpenAPI or OAuth authorization surface is published; developer/API access is gated behind sales contact.
+  - id: oidc
+    conforms: false
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: No public API specification available to assess error format.
